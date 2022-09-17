@@ -1,6 +1,7 @@
 package cosc499;
 
 import java.util.Arrays;
+<<<<<<< Updated upstream
 
 public class sortingString {
 
@@ -10,6 +11,16 @@ public class sortingString {
 		for(int i=0; i<arr.length; i++) {
 			System.out.println(arr[i]);
 		}
+=======
+import java.util.Collections;
+import java.util.List;
+
+public class sortingString {
+
+	public static List<String> sortString(List<String> list) {
+		Collections.sort(list);
+		return list;
+>>>>>>> Stashed changes
 	}
 
 }
