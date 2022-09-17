@@ -1,1 +1,1 @@
-# COSC499IndividualGitExercise
+# Feature 1 - Sorting integers
