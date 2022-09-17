@@ -1,1 +1,1 @@
-# COSC499IndividualGitExercise
+# Feature 2 - Sorting Strings
