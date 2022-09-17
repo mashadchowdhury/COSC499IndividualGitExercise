@@ -1,17 +1,19 @@
 package cosc499;
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class sortingInt {
 
-	public static void main(String[] args) {
-		List<String> cities = Arrays.asList("Kelowna", "Vancouver",
-				"Kamloops", "Victoria", "Hope", "Salmon Arm", "Revelstoke",
-				"Merritt", "Osoyoos", "Prince George");
-		Collections.sort(cities);
-		System.out.println(cities);
+	public int[] sortInt(int[] arr) {
+		int[] sorted = null;
+		Arrays.sort(arr);
+		for(int i=0; i<arr.length; i++) {
+			sorted[i] = arr[i];
+		}
+		return sorted;
 	}
-
-}
+    }
