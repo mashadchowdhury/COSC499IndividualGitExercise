@@ -2,6 +2,7 @@ package cosc499;
 
 import java.util.Arrays;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 public class sortingString {
 
@@ -12,6 +13,8 @@ public class sortingString {
 			System.out.println(arr[i]);
 		}
 =======
+=======
+>>>>>>> Stashed changes
 import java.util.Collections;
 import java.util.List;
 
@@ -20,6 +23,9 @@ public class sortingString {
 	public static List<String> sortString(List<String> list) {
 		Collections.sort(list);
 		return list;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 
